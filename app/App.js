@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import MortgageSimulator from './components/MortgageSimulator';
 
-class MortgageSimulator extends React.Component {
+class App extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Simulateur de prêt</h1>
-      </div>
+      <MuiThemeProvider muiTheme={getMuiTheme()}>
+        <MortgageSimulator />
+      </MuiThemeProvider>
     );
   }
 }
 
+injectTapEventPlugin();
+
 ReactDOM.render(
-  <MortgageSimulator />,
+  <App />,
   document.getElementById('root')
 );
