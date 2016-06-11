@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/michaelperrin/mortgage-simulator/issues"
   },
-  "homepage": "https://github.com/michaelperrin/mortgage-simulator"
+  "homepage": "https://github.com/michaelperrin/mortgage-simulator",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
 }
