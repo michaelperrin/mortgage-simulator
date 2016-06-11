@@ -1,0 +1,27 @@
+{
+  "name": "mortgage-simulator",
+  "version": "1.0.0",
+  "description": "Un simulateur de prêt immobilier, avec frais intercalaires",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelperrin/mortgage-simulator.git"
+  },
+  "keywords": [
+    "simulateur",
+    "prêt",
+    "mortgage",
+    "immobilier",
+    "vefa",
+    "frais"
+  ],
+  "author": "Michaël Perrin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelperrin/mortgage-simulator/issues"
+  },
+  "homepage": "https://github.com/michaelperrin/mortgage-simulator"
+}
